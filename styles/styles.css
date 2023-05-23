@@ -349,7 +349,6 @@ Portfolio
     width: 500px;
     height: 500px;
     border-radius: 5%;
-    border: 5px solid var(--color-primary);
     background-color:var(--color-grey6);
 }
 
