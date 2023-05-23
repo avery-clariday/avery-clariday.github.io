@@ -568,6 +568,29 @@ Media Queries
     }
 }
 
+@media screen and (max-width: 700px) {
+    #section-about {
+        margin-right: 10%;
+    }
+
+    .timeline-obj-details {
+        padding: 0;
+        min-width: 100px;
+    }
+
+    .timeline-obj-title {
+        font-size: 16px;
+    }
+
+    .timeline-obj-dates {
+        font-size: 18px;
+    }
+
+    .timeline-obj-description {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .home-text {
         padding: 15px;
@@ -680,5 +703,19 @@ Media Queries
 
     .project-title {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .left::before {
+        border: none;
+    }
+
+    .right::before {
+        border: none;
+    }
+
+    .project-overlay {
+        opacity: 1;
     }
 }
