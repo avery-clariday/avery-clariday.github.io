@@ -345,7 +345,7 @@ Portfolio
     margin: 5%;
 }
 
-.project-container img {
+.project-container .project-image {
     width: 500px;
     height: 500px;
     border-radius: 5%;
@@ -527,7 +527,7 @@ Media Queries
         height: auto;
     }
 
-    .project-container img {
+    .project-container .project-image {
         width: 100%;
         height: auto;
     }
